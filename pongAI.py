@@ -1,3 +1,8 @@
+"""
+PONG created by Pedro Maia and Leonardo Rocha
+
+"""
+
 import sys
 import os
 from random import randint
@@ -174,7 +179,6 @@ def eval_genomes(genomes, config):
 
             ball.move()
             if ball.get_x() < 0 or ball.get_x() > WIDTH:
-                #check if player misses ball
                 ge[balls.index(ball)].fitness -= 2
                 nets.pop(balls.index(ball))
                 ge.pop(balls.index(ball))
