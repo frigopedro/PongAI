@@ -204,7 +204,7 @@ def run(config_file):
 
     winner = p.run(eval_genomes, 1000)
 
-    print('\nBest genome:\n{!s}'.format(winner))
+    print('\nMelhor Genoma:\n{!s}'.format(winner))
 
 
 if __name__ == '__main__':
