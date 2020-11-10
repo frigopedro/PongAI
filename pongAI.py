@@ -1,6 +1,16 @@
 """
 PONG created by Pedro Maia and Leonardo Rocha
 
+So the player is controlled by Keys W and S, and as long as the game continues the AI learns 
+more and more how to play it. The point here, is to train the AI using as less generation as possible.
+Although, if you miss a ball, it will get a little bit more difficult to AI learns, because of the fitness parameter.
+
+The main reference was this video https://www.youtube.com/watch?v=wQWWzBHUJWM&list=PLzMcBGfZo4-lwGZWXz5Qgta_YNX3_vLS2&index=6
+which Tim, teachs how to do the same thing with flappy bird game. So we adapt all the concepts that were taught and 
+developed this one.
+
+Hope you enjoy
+
 """
 
 import sys
