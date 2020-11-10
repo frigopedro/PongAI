@@ -1,6 +1,9 @@
 """
 PONG created by Pedro Maia and Leonardo Rocha
 
+To initializate you must install neat, just write in command line: 
+$ pip install neat-python
+
 So the player is controlled by Keys W and S, and as long as the game continues the AI learns 
 more and more how to play it. The point here, is to train the AI using as less generation as possible.
 Although, if you miss a ball, it will get a little bit more difficult to AI learns, because of the fitness parameter.
